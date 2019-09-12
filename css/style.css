@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+}
+
+.nav.header {
+    display: flex;
+    background-color: #4aaaa5;
+    color: #fff;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.nav.links {
+    
+}
