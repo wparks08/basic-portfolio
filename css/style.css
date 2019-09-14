@@ -1,16 +1,23 @@
+body {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 nav {
-    display: flex;
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
 }
 
 .nav.header {
-    display: flex;
-    background-color: #4aaaa5;
-    color: #fff;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px 15px;
+  display: flex;
+  background-color: #4aaaa5;
+  color: #fff;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 15px;
 }
 
 .nav.links {
-    
 }
