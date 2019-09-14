@@ -45,3 +45,8 @@ nav {
 .nav.links li:hover {
   background-color: #eeeeee;
 }
+
+.container {
+  width: 960px;
+  margin: auto;
+}
