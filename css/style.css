@@ -142,6 +142,11 @@ hr {
   background-color: #4aaaa5;
   border: 1px solid #409490;
   color: #ffffff;
+  transition: background-color ease 0.5s;
+}
+
+.btn-default:hover {
+  background-color: #409490;
 }
 
 .portfolio-link {
@@ -161,6 +166,15 @@ hr {
   padding: 7px 0;
   color: #ffffff;
   text-decoration: none;
+  transition: background-color ease 0.5s;
+}
+
+.portfolio-link .text:hover {
+  background-color: rgba(74, 170, 165, 1);
+}
+
+.portfolio-link:hover .text {
+  background-color: rgba(74, 170, 165, 1);
 }
 
 .flex-container {
