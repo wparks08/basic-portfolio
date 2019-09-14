@@ -107,3 +107,63 @@ hr {
 #about-me p:not(:first-child) {
   margin-top: 20px;
 }
+
+.form-group {
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.control-label {
+  display: block;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  line-height: 1.5em;
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  padding: 10px 25px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-default {
+  background-color: #4aaaa5;
+  border: 1px solid #409490;
+  color: #ffffff;
+}
+
+.portfolio-link {
+  display: inline-block;
+  position: relative;
+  margin: 15px 15px;
+}
+
+.portfolio-link .text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  bottom: 10px;
+  top: auto;
+  background-color: rgba(74, 170, 165, 0.8);
+  padding: 7px 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
+}
